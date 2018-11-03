@@ -24,7 +24,7 @@ Let's use `git bisect` to find out.
 
 Do the following
 
-```bash
+```shell
 git bisect start
 npx mocha test*.js #  Double check that head is broken.
 git bisect bad
