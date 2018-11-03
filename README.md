@@ -7,7 +7,7 @@ When did this bug get introduced?
 ## Installation
 
 Clone the repository and install the dependencies
-```shell 
+```bash 
 git clone https://github.com/fhinkel/git-bisect-demo.git
 npm install
 ```
@@ -24,7 +24,7 @@ Let's use `git bisect` to find out.
 
 Do the following
 
-```shell
+```bash
 git bisect start
 npx mocha test*.js #  Double check that head is broken.
 git bisect bad
@@ -48,6 +48,6 @@ You're all done. Great job!
 Instead of manually running `git bisect`, you can automate the process. Simply
 pass a command to `git bisect run` and let the magic happen.
 
-```sh
+```bash
 git bisect run npx mocha test*.js
 ```
