@@ -2,7 +2,7 @@
 
 Repository that demonstrates how to use `git bisect`.
 
-Master fails when running `mocha test1.js`. When did the bug get introduced? 
+Master fails when running `mocha test1.js`. When did the bug get introduced?
 
 ## Installation
 
