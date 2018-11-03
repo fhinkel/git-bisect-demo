@@ -1,14 +1,13 @@
 # `git bisect` Demo
 
-Repository that demonstrates how to use `git bisect`.
-
-Master fails when running `mocha test1.js`. When did the bug get introduced?
+This repository demonstrates how to use `git bisect`.
+When you check out master, the tests in `test1.js` fail.
+When did this bug get introduced?
 
 ## Installation
 
 Clone the repository and install the dependencies
-```shell
-git clone https://github.com/fhinkel/git-bisect-demo.git
+```shell git clone https://github.com/fhinkel/git-bisect-demo.git
 npm install
 ```
 
