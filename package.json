@@ -4,7 +4,8 @@
   "description": "Repo for demonstrating git bisect",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test.js"
+    "test": "mocha test.js",
+    "lint": "eslint *.js" 
   },
   "keywords": [
     "git",
