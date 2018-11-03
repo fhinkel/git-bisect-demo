@@ -7,7 +7,8 @@ When did this bug get introduced?
 ## Installation
 
 Clone the repository and install the dependencies
-```shell git clone https://github.com/fhinkel/git-bisect-demo.git
+```shell 
+git clone https://github.com/fhinkel/git-bisect-demo.git
 npm install
 ```
 
