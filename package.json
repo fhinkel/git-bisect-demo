@@ -4,7 +4,7 @@
   "description": "Repo for demonstrating git bisect",
   "main": "index.js",
   "scripts": {
-    "test": "node test.js"
+    "test": "mocha test.js"
   },
   "keywords": [
     "git",
@@ -12,5 +12,8 @@
     "node.js"
   ],
   "author": "Franziska Hinkelmann",
-  "license": "Apache-2.0"
+  "license": "Apache-2.0",
+  "dependencies": {
+    "mocha": "^5.2.0"
+  }
 }
