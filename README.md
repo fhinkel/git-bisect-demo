@@ -20,6 +20,8 @@ At some point in the past, the tests were all passing. When did the bug get intr
 
 Let's use `git bisect` to find out.
 
+## How to use `git bisect`
+
 Do the following
 
 ```bash
