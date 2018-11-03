@@ -1,6 +1,6 @@
 # `git bisect` Demo
 
-Demo for tying out `git bisect`. 
+Repository that demonstrates how to use `git bisect`. 
 
 Clone the repository and install the dependencies. `npm test`
 passes, but `npx mocha test1.js` fails. We forgot to
