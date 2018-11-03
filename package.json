@@ -1,0 +1,16 @@
+{
+  "name": "git-bisect-demo",
+  "version": "1.0.0",
+  "description": "Repo for demonstrating git bisect",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "git",
+    "bisect",
+    "node.js"
+  ],
+  "author": "Franziska Hinkelmann",
+  "license": "Apache-2.0"
+}
