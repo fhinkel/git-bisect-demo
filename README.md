@@ -48,6 +48,6 @@ You're all done. Great job!
 Instead of manually running `git bisect`, you can automate the process. Simply
 pass a command to `git bisect run` and let the magic happen.
 
-```shell
+```sh
 git bisect run npx mocha test*.js
 ```
