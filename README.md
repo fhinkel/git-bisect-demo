@@ -13,8 +13,8 @@ npm install
 
 `npm test`
 passes, but `npx mocha test1.js` fails. We forgot to
-add these tests to the `test` script. So our continuous
-integration tests never found the problem.
+add these tests to the `test` script. Continuous
+integration would have never found the problem.
 At some point in the past, the tests were all passing. When did the bug get introduced?
 
 Let's use `git bisect` to find out.
@@ -33,9 +33,9 @@ npx mocha test*.js # Double check that everything was green.
 git bisect good
 ```
 
-Now follow the interactive prompt. At every step, run the tests and mark the commit as either `good` or `bad`. Eventually, you should be down to one commit.
+Now follow the interactive prompt. At every step, run the tests with `npx mocha test*.js` and mark the commit as either `good` or `bad`. Eventually, you should be down to one commit.
 
-If you can't run the tests in a meaningful way, you can `skip` that revision.
+If you can't run the tests in a meaningful way for a specific revision, you can `skip` that revision.
 
 When you've found the offending revision, inspect the changes. Can you see what went wrong? Note the hash of the broken commit. Then call `git bisect reset` to exit bisection mode.
 
