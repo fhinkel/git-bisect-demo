@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Repo for demonstrating git bisect",
   "main": "index.js",
+  "repository": "fhinkel/git-bisect-demo",
   "scripts": {
     "test": "npm run lint && mocha test.js",
     "lint": "eslint *.js" 
