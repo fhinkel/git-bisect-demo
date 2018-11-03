@@ -8,7 +8,7 @@ Master fails when running `mocha test1.js`. When did the bug get introduced?
 
 Clone the repository and install the dependencies
 ```shell
-git clone repo
+git clone https://github.com/fhinkel/git-bisect-demo.git
 npm install
 ```
 
