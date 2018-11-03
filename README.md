@@ -43,3 +43,11 @@ When you've found the offending revision, inspect the changes. Can you see what 
 Fix the problem, either manually or by reverting the commit that broke it. Also fix the `test` script to include `test1.js` so we won't be fooled in the future.
 
 You're all done. Great job!
+
+# Automating `git bisect`
+Instead of manually running `git bisect`, you can automate the process. Simply
+pass a command to `git bisect run` and let the magic happen. 
+
+```shell
+git bisect run npx mocha test*.js
+```
