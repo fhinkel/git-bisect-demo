@@ -44,6 +44,8 @@ Fix the problem, either manually or by reverting the commit that broke it. Also 
 
 You're all done. Great job!
 
+[![Git bisect in action](https://img.youtube.com/vi/StTqXEQ2l-Y/0.jpg)](https://www.youtube.com/watch?v=StTqXEQ2l-Y "manual git bisect")
+
 # Automating `git bisect`
 Instead of manually running `git bisect`, you can automate the process. Simply
 pass a command to `git bisect run` and let the magic happen.
@@ -51,3 +53,5 @@ pass a command to `git bisect run` and let the magic happen.
 ```bash
 git bisect run npx mocha test*.js
 ```
+
+[![Automated git bisect in action](https://img.youtube.com/vi/StTqXEQ2l-Y/0.jpg)](https://www.youtube.com/watch?v=StTqXEQ2l-Y "automate git bisect")
