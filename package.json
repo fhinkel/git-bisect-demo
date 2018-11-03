@@ -14,6 +14,7 @@
   "author": "Franziska Hinkelmann",
   "license": "Apache-2.0",
   "dependencies": {
+    "eslint": "^5.8.0",
     "mocha": "^5.2.0"
   }
 }
