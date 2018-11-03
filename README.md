@@ -1,4 +1,4 @@
-# git bisect Demo
+# `git bisect` Demo
 
 Demo for tying out `git bisect`. 
 
