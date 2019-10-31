@@ -28,7 +28,7 @@ git bisect start
 npx mocha test1.js #  Double check that head is broken.
 git bisect bad
 git log --oneline # Let's find the hash for a good commit.
-git checkout 7425633 #  This is the first good commit.
+git checkout b58217f #  This is the first good commit.
 npx mocha test1.js # Double check that everything was green.
 git bisect good
 ```
